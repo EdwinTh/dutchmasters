@@ -86,12 +86,16 @@ dutchmasters <- list(
       "red(shirt)"       = "#8F5144",
       "yellow(cobbles2)" = "#C9BDA3"
     ),
-  ## Rembrandt van Rijn - The Nigth Watch
-  ## https://en.wikipedia.org/wiki/The_Night_Watch
-
 
   ## Rembrandt van Rijn - The Anatomy Lesson of Dr. Nicolaes Tulp
   ## https://en.wikipedia.org/wiki/The_Anatomy_Lesson_of_Dr._Nicolaes_Tulp
+  anatomy <-
+    c("grey(corpse)" = "#B2AAA2",
+      "black(cloak)" = "#0D0B0C",
+      "pink(cheek)"  = "#B47562",
+      "brown(cloak)" = "#332826",
+
+    ),
 
   ## Rembrandt van Rijn - The "Staalmeesters"
   ## https://en.wikipedia.org/wiki/Syndics_of_the_Drapers%27_Guild
