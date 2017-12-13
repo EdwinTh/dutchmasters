@@ -1,23 +1,33 @@
 #' Dutch Masters Colour Palletes
 #'
 #' Colour palletes derived from famous paintings from the Dutch masters
-#'   Johannes Vermeer and Rembrandt van Rijn. Inspired by the ochRe package.
-#'   Please use in concordance with ochRe.
+#'   Johannes Vermeer and Rembrandt van Rijn. Inspired by the [ochRe]
+#'   (https://github.com/ropenscilabs/ochRe) package.
 #'
 #'   Available palletes:
+#'
 #'   Vermeer - The Milkmaid
+#'
 #'   Vermeer - Girl with a Pearl Earring
+#'
 #'   Vermeer - View of Delft
+#'
 #'   Vermeer - The Little Street
-#'   Van Rijn - The Nightswatch
+#'
 #'   Van Rijn - The Anatomy Lesson of Dr. Nicolaes Tulp
+#'
 #'   Van Rijn - The "Staalmeesters"
 #'
 #' @examples
 #' # devtools::install_github("EdwinTh/dutchmasters")
 #' # devtools::install_github("ropenscilabs/ochRe")
 #'
-#'
+#' ochRe::viz_palette(dutchmasters$milkmaid)
+#' ochRe::viz_palette(dutchmasters$pearl_earring)
+#' ochRe::viz_palette(dutchmasters$view_of_Delft)
+#' ochRe::viz_palette(dutchmasters$little_street)
+#' ochRe::viz_palette(dutchmasters$anatomy)
+#' ochRe::viz_palette(dutchmasters$staalmeesters)
 #' @export
 dutchmasters <- list(
   ## Johannes Vermeer - The Milkmaid
@@ -89,12 +99,14 @@ dutchmasters <- list(
 
   ## Rembrandt van Rijn - The Anatomy Lesson of Dr. Nicolaes Tulp
   ## https://en.wikipedia.org/wiki/The_Anatomy_Lesson_of_Dr._Nicolaes_Tulp
-  anatomy <-
+  anatomy =
     c("grey(corpse)" = "#B2AAA2",
       "black(cloak)" = "#0D0B0C",
       "pink(cheek)"  = "#B47562",
       "brown(cloak)" = "#332826",
-
+      "brown(table)" = "#B18147",
+      "red(muscle)"  = "#803B31",
+      "white(colar)" = "#CBC2C3"
     ),
 
   ## Rembrandt van Rijn - The "Staalmeesters"
@@ -102,11 +114,11 @@ dutchmasters <- list(
   staalmeesters =
     c("red(tablecloth)"  = "#A13826",
       "red(tablecloth2)" = "#701B06",
-      "brown(panel)"    = "#4C3114",
-      "brown(panel2)"   = "#7A491E",
-      "white(colar)"    = "#D7E1D6",
-      "black(cloak)"    = "#060A0D",
-      "skin"            = "#D39C7B"
+      "brown(panel)"     = "#4C3114",
+      "brown(panel2)"    = "#7A491E",
+      "white(colar)"     = "#D7E1D6",
+      "black(cloak)"     = "#060A0D",
+      "skin"             = "#D39C7B"
       )
 )
-viz_palette(dutchmasters$staalmeesters)
+
