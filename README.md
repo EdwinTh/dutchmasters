@@ -36,7 +36,7 @@ ggplot(mtcars, aes(disp, mpg, col = qsec)) +
 
 The six available palettes are
 
-Vermeer -[*The Milkmaid*](https://en.wikipedia.org/wiki/The_Milkmaid_(Vermeer))
+Vermeer - [*The Milkmaid*](https://en.wikipedia.org/wiki/The_Milkmaid_(Vermeer))
 
 ``` r
 ochRe::viz_palette(dutchmasters$milkmaid)
@@ -44,7 +44,7 @@ ochRe::viz_palette(dutchmasters$milkmaid)
 
 ![](README_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
-Vermeer -[*Girl with a Pearl Earring*](https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring)
+Vermeer - [*Girl with a Pearl Earring*](https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring)
 
 ``` r
 ochRe::viz_palette(dutchmasters$pearl_earring)
